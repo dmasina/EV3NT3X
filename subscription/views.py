@@ -6,7 +6,7 @@ from django.core.urlresolvers import reverse
 from .forms import SubscriptionForm
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404
-from eventex.subscription.models import Subscription
+from subscription.models import Subscription
 
 def subscribe(request):
     if request.method == 'POST':

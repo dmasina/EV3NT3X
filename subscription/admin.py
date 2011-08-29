@@ -1,6 +1,6 @@
 from datetime import date
 from django.contrib import admin
-from eventex.subscription.models import Subscription
+from subscription.models import Subscription
 
 class SubscriptionAdmin(admin.ModelAdmin):
     list_display = ('name', 'cpf', 'email', 'phone', 'created_at','today' )

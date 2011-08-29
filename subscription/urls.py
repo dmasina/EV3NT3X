@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 from django.conf.urls.defaults import patterns, url
-from eventex.route import route # route.py deve ficar dentro do diretorio eventex
+from route import route # route.py deve ficar dentro do diretorio eventex
 
 urlpatterns = patterns('subscription.views',                                            
     #url(r'^$', 'subscribe', name='subscribe'),
