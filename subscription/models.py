@@ -9,7 +9,7 @@ class Subscription (models.Model):
     cpf = models.CharField('CPF', max_length=11, unique=True)
     email = models.EmailField('E-mail', unique=True)
     phone = models.CharField('Telefone', max_length=20, blank=True)
-    created_at = models.DateField('Criado em', auto_now_add=True)
+    created_at = models.DateTimeField('Criado em', auto_now_add=True)
     
     # Representacao do modelo:
     # Retorna o conteudo de 'name' ao inves do tipo do objeto. 
