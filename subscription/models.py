@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*- 
 
 from django.db import models
+from django.contrib.admin.options import ModelAdmin
 
 # Create your models here.
 
